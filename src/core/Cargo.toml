@@ -26,7 +26,7 @@ anyhow = "1"
 thiserror = "1"
 toml = "0.8"
 toml_edit = "0.22"
-rand = "0.8"
+rand = "0.10"
 nanoid = "0.5"
 parking_lot = "0.12"
 rusqlite = { version = "0.32", features = ["bundled"] }
@@ -40,7 +40,7 @@ shell-escape = "0.1"
 libc = "0.2"
 flate2 = "1.1"
 tar = "0.4"
-zip = { version = "2.2", default-features = false, features = ["deflate"] }
+zip = { version = "9.0", default-features = false, features = ["deflate"] }
 
 [target.'cfg(target_os = "linux")'.dependencies]
 xz2 = { version = "0.1", features = ["static"] }
